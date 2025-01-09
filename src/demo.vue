@@ -2,7 +2,7 @@
   <t-chat
     ref="chatRef"
     layout="single"
-    style="height: 600px"
+    style="height: 100vh;"
     :clear-history="chatList.length > 0 && !isStreamLoad"
     @clear="clearConfirm"
   >
@@ -48,22 +48,11 @@ const backBottom = () => {
 // 倒序渲染
 const chatList = ref([
   {
-    content: `模型由 <span>hunyuan</span> 变为 <span>GPT4</span>`,
-    role: 'model-change',
-  },
-  {
     avatar: 'https://tdesign.gtimg.com/site/chat-avatar.png',
     name: 'TD&AI',
-    datetime: '今天16:38',
-    content: '它叫 McMurdo Station ATM，是美国富国银行安装在南极洲最大科学中心麦克默多站的一台自动提款机。',
+    datetime: '今天09:38',
+    content: '早上好，我是你的助理小Ai，请问今天有什么安排？',
     role: 'assistant',
-  },
-  {
-    avatar: 'https://tdesign.gtimg.com/site/avatar.jpg',
-    name: '自己',
-    datetime: '今天16:38',
-    content: '南极的自动提款机叫什么名字？',
-    role: 'user',
   },
 ]);
 const clearConfirm = function () {
