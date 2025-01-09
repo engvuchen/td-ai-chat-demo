@@ -1,97 +1,43 @@
-
 # 使用腾讯云AI代码助手快速实现一个办公AI助手
 
-这是一个基于 Vue.js 和 TDesign 的 AI 聊天演示项目。
+## 作品简介
+这是一个基于 Vue.js 和 TDesign 的 AI 聊天演示项目，旨在为用户提供便捷的办公交流体验。
 
-## 版本信息
+## 技术架构
+本项目采用了前端框架 Vue.js 结合 TDesign 组件库进行开发，同时集成了相关的 AI 聊天功能模块。
 
-- Node.js 版本: v18+
+## 实现过程
 
-## 安装依赖
+### 开发环境、开发流程
+- 开发环境：Node.js 版本 v18+
+- 开发流程：
+    - 克隆项目代码。
+    - 在项目根目录下运行 `npm i` 安装依赖。
+    - 运行 `npm run dev` 启动开发服务器，默认在 `http://localhost:3000` 上运行。
 
-在项目根目录下运行以下命令来安装所有依赖：
+### 关键技术解析
+- Vue.js 框架用于构建用户界面和实现响应式数据绑定。
+- TDesign 组件库提供了丰富且美观的组件，提升开发效率和用户体验。
 
+### 腾讯云AI代码助手在上述过程中的助力
 
-## 运行项目
-
-安装完依赖后，可以通过以下命令启动开发服务器：
-
-
-bash
-## 版本nodejs v18+
-
-```bash
-# Install
-npm i
-npm run dev
-```
+在项目的开发过程中，腾讯云AI代码助手能够快速生成代码片段，提高开发效率，减少错误，为开发者提供便捷的支持。
 
 
-服务器启动后，默认会在 `http://localhost:3000` 上运行。
+## 使用说明
 
-## 目录结构
-
-
-```
-
-├── .git/ # Git 版本控制相关的文件
-
-├── node_modules/ # 通过 npm 安装的依赖包
-
-├── public/ # 静态资源文件
-
-├── src/ # 源代码
-
-│ ├── assets/ # 资源文件，如图片、字体等
-
-│ ├── components/ # Vue 组件
-
-│ ├── views/ # 页面级组件
-
-│ ├── App.vue # 主组件
-
-│ ├── main.js # 入口文件
-
-│ └── ... # 其他源文件
-
-├── .gitignore # Git 忽略文件配置
-
-├── package.json # 项目配置文件
-
-├── README.md # 项目说明文件
-
-└── ... # 其他配置文件
-```
-
-
-## 功能特性
+- 按照上述开发流程启动项目后，在浏览器中访问 `http://localhost:3000` 即可使用。
 
 - 实时聊天交互
 - AI 模型切换提示
 - 用户反馈机制（好评、差评、重播）
 - 流式加载支持
 
-## 贡献指南
+## 效果展示
 
-欢迎贡献！请遵循以下步骤：
+代码：https://github.com/zacksleo/td-ai-chat-demo
 
-1. Fork 项目到你的 GitHub 账户。
-2. 创建一个新的分支 (`git checkout -b feature/your-feature-name`)
-3. 提交你的更改 (`git commit -am 'Add some feature'`)
-4. 推送你的分支到 GitHub (`git push origin feature/your-feature-name`)
-5. 创建一个 Pull Request
-
-## 许可证
-
-本项目采用 MIT 许可证，详情请参见 [LICENSE](LICENSE) 文件。
-
-## 源码
-
-https://github.com/zacksleo/td-ai-chat-demo
-
-## 视频
-
-https://live.csdn.net/v/442764
+视频： https://live.csdn.net/v/442764
 
 ## 参考资料
 
